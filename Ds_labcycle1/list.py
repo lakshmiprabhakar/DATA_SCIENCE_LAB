@@ -17,3 +17,21 @@ for idx,i in enumerate(nums):
 even_squares=[x**2 for x in nums if x%2 == 0]
 print("List of squares of even numbers from 'num':",even_squares)
 
+//OUTPUT_________________________________-
+Containers:Lists
+list 'nums' contains: [0, 1, 2, 3, 4]
+list can contain elements of different types. Example: [0, 1, 2, 3, 'abc']
+'num' after inserting new element at the end :
+sublists:
+A slice from index 2 to 4: [2, 3]
+A slice from index 2 to the end: [2, 3, 'abc', 'xyz']
+A slice from the start to index 2: [0, 1]
+A slice of the whole list: [0, 1, 2, 3, 'abc', 'xyz']
+After Assigning  new sublist to 'nums':
+1:0
+2:1
+3:2
+4:3
+5:8
+6:9
+List of squares of even numbers from 'num': [0, 4, 64]
