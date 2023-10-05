@@ -14,3 +14,26 @@ squares={x:x*x for x in range (10)}
 print("square of integers of range 10:")
 for k,v in squares.items():
     print(k,":",v)
+
+//OUTPUT_________________________
+
+Containers:Dictonaries
+Dictonary: {'cat': 'cute', 'dog': 'furry'}
+Is the dictonary has the key 'cat'? True
+After adding new entry to 'd': {'cat': 'cute', 'dog': 'furry', 'fish': 'wet'}
+Get an element monkey: N/A
+Get an element fish: wet
+After deleting the newly added entry from 'd' {'cat': 'cute', 'dog': 'furry'}
+Demo of dictionary comprehension:
+square of integers of range 10:
+0 : 0
+1 : 1
+2 : 4
+3 : 9
+4 : 16
+5 : 25
+6 : 36
+7 : 49
+8 : 64
+9 : 81
+
