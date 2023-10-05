@@ -6,3 +6,9 @@ def fact(n):
         return(n*fact(n-1))
 n=int(input("Enter a number:"))
 print("Factorial : ",fact(n))
+
+//OUTPUT_______________________
+
+Demo of function:program to find factorial of a number
+Enter a number:5
+Factorial :  120
