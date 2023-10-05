@@ -9,3 +9,8 @@ class greeter:
 g=  greeter('fred')
 g.greet()
 g.greet(loud=True)
+
+//OUTPUT___________________________
+
+Hello fred
+HELLO FRED
