@@ -15,3 +15,17 @@ print("n2=",n2)
 print("n1 union n2:",n1|n2)
 print("n1 intersection n2:",n1&n2)
 print("n1 difference n2: ",n1-n2)
+
+//OUTPUT____________
+
+Containers:Sets
+Set 'num1': {120, 100, 110}
+'num1' after inserting 90: {120, 90, 100, 110}
+'num1' after inserting multiple elements: {100, 70, 110, 50, 120, 90, 60}
+'num1' after removing 60: {100, 70, 110, 50, 120, 90}
+Set comprehension and set operations: 
+n1= {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}
+n2= {1, 3, 5, 7, 9}
+n1 union n2: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}
+n1 intersection n2: {1, 3, 5, 7, 9}
+n1 difference n2:  {0, 2, 4, 6, 8}
