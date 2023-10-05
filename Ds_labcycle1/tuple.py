@@ -7,3 +7,21 @@ t=(5,6)
 print("Tuple t:",t)
 print(d[t])
 print(d[1,2])
+
+//OUTPUT_______________________
+
+Conainers:Tuples
+Dictionary with tuple keys:
+(0, 1) : 0
+(1, 2) : 1
+(2, 3) : 2
+(3, 4) : 3
+(4, 5) : 4
+(5, 6) : 5
+(6, 7) : 6
+(7, 8) : 7
+(8, 9) : 8
+(9, 10) : 9
+Tuple t: (5, 6)
+5
+1
